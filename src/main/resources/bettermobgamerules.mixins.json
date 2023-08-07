@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.linggify.minecraft.bettermobgamerules.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "BetterMobGameRules.refmap.json",
+  "mixins": [
+    "ExplosionMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
